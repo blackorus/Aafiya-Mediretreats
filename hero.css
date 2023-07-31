@@ -1,0 +1,72 @@
+/* Basic styling for the hero section */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url("img/herosec.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 25px 65px ;
+}
+
+/* Basic styling for the menu */
+.menu {
+    background-color: transparent;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Styling for the arrow */
+.arrow {
+    margin-left: 3px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Styling for the hero content */
+.hero-content 
+{
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.hero-content p {
+    font-size: 15px;
+    padding-right: 60%;
+    margin-bottom: 30px;
+}
+
+.hero-content button {
+    background-color: #039bef;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: white;
+    color: #039bef;
+}

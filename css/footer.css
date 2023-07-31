@@ -1,0 +1,205 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+  }
+
+  .footer-begin
+  {
+    background-color: #0da3f7;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .footer-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  /* Style the vertical line */
+  .vertical-line {
+    display: inline-flex;
+    width: 1px;
+    height: 20px; /* Adjust the height as needed */
+    background-color: #ccc; /* Grey color for the line */
+    margin: 0 10px; /* Adjust the spacing around the line */
+  }
+  
+  /* Style the phone number */
+  .phone-number {
+    font-size: 14px;
+    color: #fff; /* Black color for the phone number */
+  }
+  
+  /* Style the footer */
+  .footer-design {
+    background-color: #0a2433;
+    color: #fff;
+    padding: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .footer-padd
+  {
+padding-left: 10px;
+padding-right: 0%;
+  }
+  
+  /* Create a container to hold the footer columns */
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-container2 {
+    margin-top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style each individual footer column */
+  .footer-column {
+    flex: 1; /* Each column takes equal space */
+    margin: 10px; /* Add some spacing between columns */
+  }
+
+  .footer-col
+  {
+    margin-top: 85px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px; /* Adjust the distance between the dash and list items */
+  }
+  
+  .ul-line li::before {
+    content: "\2013"; /* Unicode for an em dash (—) */
+    color: #039bef;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; /* Adjust the position of the dash */
+  }
+  
+  /* Style ordered lists (ol) */
+  ol {
+    list-style-type: none;
+    padding-left: 20px; /* Adjust the distance between the dash and list items */
+  }
+  
+  ol li::before {
+    content: counter(item) ". "; /* Add numbers before each list item */
+    counter-increment: item; /* Increment the counter for each list item */
+    color: #039bef;
+    font-weight: bold; /* Make the numbers bold */
+  }
+  
+  /* Add styles to the headings in the footer columns */
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the links inside the footer columns */
+  .footer-column, ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+
+  .logo-design
+  {
+    width: 30px;
+    margin: 5px;
+  }
+
+  #no
+  {
+    color: #039bef;
+  }
+  /* All the previous CSS styles as mentioned in the previous example */
+/* All the previous CSS styles as mentioned in the previous example */
+
+/* Style the floating join window */
+.join-window {
+  position: relative;
+  bottom: 350px; /* Adjust the vertical position as needed */
+  left: 1130px;
+  transform: translateY(-50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  color: black;
+  width: 250px; /* Adjust the width of the join window as needed */
+  z-index: 1; /* Ensure it appears above other content */
+}
+/* Style the hr tag */
+.footer-hr {
+  border: none;
+  height: 1px;
+  background-color: darkgrey; 
+  margin: 40px 0px 40px; 
+}
+
+.join-window h3 {
+  font-size: 15px;
+  font-weight: 400 ;
+}
+
+.join-window h2
+{
+  font-size: larger;
+}
+
+.join-window p
+{
+  color: grey;
+}
+
+.join-design
+{
+  display: flex;
+}
+
+.join-img
+{
+  padding-right: 5px;
+  width: 50px;
+}
+
+.footer-end
+{
+  background-color: #039bef;
+  color: white;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-space{
+  flex: content; /* Each column takes equal space */
+  margin: 10px; /* Add some spacing between columns */
+} 

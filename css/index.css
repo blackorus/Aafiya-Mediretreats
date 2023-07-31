@@ -1,0 +1,517 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI';
+  }
+
+  .container
+  {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    background-color: #fff;
+  }
+
+  .container2 
+  {
+    margin-right: 26%;
+    margin-top: -150px;
+    padding: 20px;
+    display: flex;
+    background-color: #fff;
+  }
+
+  .container3 
+  {
+    margin-right: 26%;
+    padding: 20px;
+    margin-top: -40px;
+    display: flex;
+    background-color: #fff;
+  }
+
+  .content {
+    flex: 1;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .content h1 {
+    margin-top: 0;
+  }
+
+  .content p {
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+
+  .image {
+    flex: 1;
+    position: relative; /* Add relative positioning to the image container */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+
+  .image img {
+    width: 80%;
+    height: 50;
+    object-fit: cover;
+    display: block;
+  }
+
+  .dot-color {
+    color: red;
+  }
+
+  .hr-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .hr-container2 {
+    margin-top: 5%; 
+  }
+
+  hr {
+    border: none; /* Remove the default horizontal rule */
+    border-top: 1px dashed #0da3f7; /* Add a dashed border on top to create the dashed line */
+    margin: 30px 0; /* Add some margin above and below the line for spacing */
+
+  }
+
+  .head-design
+  {
+    color: #007bff;
+  }
+  .help-form {
+    margin-right: 5%;
+    right: 80px;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .help-form h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .form-group button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0da3f7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  ul[type="circle"] {
+    list-style-type: none; /* Remove the default circle bullet points */
+    padding-left: 20px; /* Add some left padding to make space for custom bullets */
+  }
+
+  /* Customize the appearance of the circle bullet points */
+  ul[type="circle"] li {
+    position: relative; /* Add relative positioning to the list items */
+    padding-left: 1.5em; /* Add padding to the left of the list items to make space for the bullet points */
+    line-height:1.5; /* Add padding to the left of the list items */
+  }
+
+  ul[type="circle"] li::before {
+    content: ""; /* Use an empty content to create the hollow circle */
+    width: 5px; /* Set the width of the hollow circle */
+    height: 5px; /* Set the height of the hollow circle */
+    border: 2px solid #0da3f7; /* Set the border to create the hollow effect (you can use any valid CSS color value for the border) */
+    border-radius: 50%; /* Make the circle border rounded to create a circle */
+    display: inline-block; /* Make the pseudo-element inline so it appears next to the list item text */
+    position: absolute ;/* Position the bullet points absolutely within the list items */
+    left: 0; /* Place the bullet points to the left of the list items */
+    top: 50;
+    transform: translateY(100%);
+     /* Align the bullet points vertically with the list items */
+}
+
+/* Styles for the accordion container */
+.accordion {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 4%;
+}
+
+/* Styles for each accordion item */
+.accordion-item {
+  border-bottom: 1px solid lightgray;;
+}
+
+/* Styles for accordion header */
+.accordion-header {
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  position: relative; /* Add relative positioning to the header */
+}
+
+/* Styles for the "+" and "-" signs in the accordion header */
+.accordion-icon {
+  font-size: 20px;
+  color: #0da3f7;
+  font-weight: bold;
+}
+
+/* Add some space between the "+" sign and the "Section" text */
+.accordion-header .accordion-icon {
+  margin-right: 5px; /* Adjust the margin as per your preference */
+}
+
+/* Styles for the active accordion item (open state) */
+.accordion-item.active .accordion-header {
+  color: black;
+}
+
+/* Styles for the active accordion content (open state) */
+.accordion-item.active .accordion-content {
+  display: block;
+  animation: fade-in 0.3s ease; /* Add fade-in animation for opening */
+  padding-left: 80px; /* Adjust padding as per your preference */
+}
+
+/* Styles for the accordion content */
+.accordion-content {
+  padding: 0px 20px 20px 20px;
+  display: none;
+  color: gray;
+  border-top: 1px solid #0da3f7;
+  border-bottom: 1px solid #0da3f7;
+}  
+/* Fade-in animation keyframes */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI';
+}
+
+.container
+{
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  background-color: #fff;
+}
+
+.container2 
+{
+  margin-right: 26%;
+  margin-top: -150px;
+  padding: 20px;
+  display: flex;
+  background-color: #fff;
+}
+
+.container3 
+{
+  margin-right: 26%;
+  padding: 20px;
+  margin-top: -40px;
+  display: flex;
+  background-color: #fff;
+}
+
+.content {
+  flex: 1;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content h1 {
+  margin-top: 0;
+}
+
+.content p {
+  margin-bottom: 0;
+}
+
+.image {
+  flex: 1;
+  position: relative; /* Add relative positioning to the image container */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.image img {
+  width: 80%;
+  height: 50;
+  object-fit: cover;
+  display: block;
+}
+
+.dot-color {
+  color: red;
+}
+
+.hr-container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.hr-container2 {
+  margin-top: 5%; 
+}
+
+hr {
+  border: none; /* Remove the default horizontal rule */
+  border-top: 1px dashed #0da3f7; /* Add a dashed border on top to create the dashed line */
+  margin: 30px 0; /* Add some margin above and below the line for spacing */
+
+}
+
+.head-design
+{
+  color: #007bff;
+}
+.help-form {
+  margin-right: 5%;
+  right: 80px;
+  width: 280px;
+  padding: 20px;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.help-form h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.help-form p {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #0da3f7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+ul[type="circle"] {
+  list-style-type: none; /* Remove the default circle bullet points */
+  padding-left: 20px; /* Add some left padding to make space for custom bullets */
+}
+
+/* Customize the appearance of the circle bullet points */
+ul[type="circle"] li {
+  position: relative; /* Add relative positioning to the list items */
+  padding-left: 1.5em; /* Add padding to the left of the list items to make space for the bullet points */
+  line-height:1.5; /* Add padding to the left of the list items */
+}
+
+ul[type="circle"] li::before {
+  content: ""; /* Use an empty content to create the hollow circle */
+  width: 5px; /* Set the width of the hollow circle */
+  height: 5px; /* Set the height of the hollow circle */
+  border: 2px solid #0da3f7; /* Set the border to create the hollow effect (you can use any valid CSS color value for the border) */
+  border-radius: 50%; /* Make the circle border rounded to create a circle */
+  display: inline-block; /* Make the pseudo-element inline so it appears next to the list item text */
+  position: absolute ;/* Position the bullet points absolutely within the list items */
+  left: 0; /* Place the bullet points to the left of the list items */
+  top: 50;
+  transform: translateY(100%);
+   /* Align the bullet points vertically with the list items */
+}
+
+/* Styles for the accordion container */
+.accordion {
+border-top: 1px solid lightgray;
+border-bottom: 1px solid lightgray;
+}
+
+/* Styles for each accordion item */
+.accordion-item {
+border-bottom: 1px solid lightgray;;
+}
+
+/* Styles for accordion header */
+.accordion-header {
+padding: 12px 20px;
+cursor: pointer;
+background-color: #ffffff;
+position: relative; /* Add relative positioning to the header */
+}
+
+/* Styles for the "+" and "-" signs in the accordion header */
+.accordion-icon {
+font-size: 20px;
+color: #0da3f7;
+font-weight: bold;
+}
+
+/* Add some space between the "+" sign and the "Section" text */
+.accordion-header .accordion-icon {
+margin-right: 5px; /* Adjust the margin as per your preference */
+}
+
+/* Styles for the active accordion item (open state) */
+.accordion-item.active .accordion-header {
+color: black;
+}
+
+/* Styles for the active accordion content (open state) */
+.accordion-item.active .accordion-content {
+display: block;
+animation: fade-in 0.3s ease; /* Add fade-in animation for opening */
+padding-left: 80px; /* Adjust padding as per your preference */
+}
+
+/* Styles for the accordion content */
+.accordion-content {
+padding: 0px 20px 20px 20px;
+display: none;
+color: gray;
+border-top: 1px solid #0da3f7;
+border-bottom: 1px solid #0da3f7;
+}  
+/* Fade-in animation keyframes */
+@keyframes fade-in {
+from {
+  opacity: 0;
+}
+to {
+  opacity: 1;
+}
+}
+
+
+/* Table of Contents Styles */
+.table-of-contents {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  position: sticky;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 10px 70px;
+  display: flex;
+}
+
+
+.table-of-contents ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.table-of-contents li {
+  margin-bottom: 5px;
+}
+
+/* Blue hover effect for the links in Table of Contents */
+.table-of-contents a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Active link style for the currently selected section in Table of Contents */
+
+.table-of-contents li .active-link {
+  padding-bottom: 14px;
+  border-bottom: 2px solid #039bef;
+}
+
+
+
+.table-of-contents ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display the links horizontally */
+}
+
+.table-of-contents li {
+  margin-right: 10px; /* Add some spacing between the links */
+}
+
+.table-of-contents a {
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}

@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #039bef;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+  .header-design nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+
+  .header-design nav ul li {
+    margin: 0 10px;
+  }
+
+  .header-design nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .header-design nav ul li a:hover {
+    background-color: transparent; /* Semi-transparent background on hover */
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #007bff; 
+    /* Semi-transparent background for the search 
+    container */
+    padding: 5px;
+  }
+
+  .search-container input[type="text"] {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    flex: 1; /* Allow the search input to expand and take available space */
+    /* Set the placeholder color to white */
+  }
+
+  .search-container ::placeholder {
+      color: #ffffff;
+      opacity: 1; /* Ensure the placeholder color is fully visible */
+    }
+
+  .search-container .search-icon {
+    margin-right: 5px; /* Add margin to the right of the icon */
+  }
+
+  .search-container button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px; /* Add margin to separate the icon from the input */
+  }
+
+  .search-container img {
+    width: 20px;
+    height: 20px;
+  }

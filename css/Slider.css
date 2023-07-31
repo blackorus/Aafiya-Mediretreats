@@ -1,0 +1,166 @@
+
+#team {
+	padding: 30px 0px;
+}
+.sec-heading {
+	margin-bottom: 40px;
+}
+.single-box {
+	border: 1px dashed red;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.info-area {
+	padding: 0 20px 10px;
+}
+.img-area {
+	padding: 15px 0 15px;
+}
+.img-area img {
+	margin-top: -15px;
+	max-width: 420px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.info-area h4 {
+	font-weight: 600;
+}
+
+.info-area p {
+	color: red;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.heading-color {
+	font-style: italic;
+	color: red;
+}
+
+.change-color {
+	color: #0da3f7;
+}
+
+.explore-design
+{
+	font-weight: 700px;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.span-color {
+	color: red;
+}
+
+.team-slider .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -40px;
+	text-align: center;
+	width: 100%;
+}
+.team-slider button.owl-dot {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	margin: 0px 5px;
+	padding-right: 20px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: grey; /* Default dot color */
+	transition: background-color 0.3s;
+}
+.owl-dot.active {
+	background-color: #0da3f7; /* Color for the selected dot */
+}
+
+#team1
+{
+	margin: 0px;
+	background-color: #e9f2f7;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.single-box1 {
+	border: none;
+	background-color: #fff;
+	padding: 20px;
+}
+
+.img-design
+{
+	max-width: 350px;
+}
+
+.info-area1 h4 {
+	padding-top: 20px;
+	font-style: italic;
+	color: red;
+	font-weight: 500;
+}
+
+.info-area1 h5 {
+	font-size: medium;
+	font-weight: 600;
+}
+
+.info-area1 p {
+	color: gray;
+	font-weight: 500;
+}
+
+.stories-design
+{
+	margin-top: 5%;
+	margin-left: 5%;
+	display: flex;
+}
+.stories-design h5
+{
+ text-align: left;
+}
+
+.stories-design p
+{
+ color: grey;
+ font-size: small;
+}
+
+.profile-picture
+{
+	margin-right: 10px;
+	max-width: 60px;
+	border-radius: 100%;
+}
+
+.single-box2 h6
+{
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 10px
+}
+
+.single-box2 p
+{
+	text-align: left;
+	color: grey;
+}
+
+.single-box2 {
+	border: 1px solid lightgrey;
+	background-color: #fff;
+	padding: 20px;
+}
+
+#team2
+{
+	margin-left: -17%;
+	margin-right: 0;
+	margin-bottom: 5%;
+}
+
+
+
+
